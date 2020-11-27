@@ -5,3 +5,5 @@ require('@babel/register')({
 });
 require('@babel/polyfill');
 global.chai = require('chai');
+global.numpy = require('./numpy.js');
+global.fs = require('fs');
